@@ -1004,7 +1004,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 7, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area {
-    padding: 0 20px;
+    padding: 0 5px;
   }
 }
 
@@ -1247,6 +1247,12 @@ h3 {
   }
 }
 
+@media (max-width: 767px) {
+  .col-xl-12 {
+    padding: 0 5px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 167, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text:after {
@@ -1369,6 +1375,13 @@ h3 {
   padding-right: 50px;
 }
 
+@media (max-width: 767px) {
+  .program_details_area {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 /* line 13, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
 .program_details_area .single_program {
   padding: 20px;
@@ -1422,6 +1435,12 @@ h3 {
   /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
   .attending_area.plus_padding {
     padding-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-lg-6 {
+    padding: 0 5px;
   }
 }
 
@@ -1904,6 +1923,12 @@ h3 {
 .location_area {
   padding: 0 50px;
   position: relative;
+}
+
+@media (max-width: 767px) {
+  .location_area {
+    padding: 0 5px;
+  }
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
@@ -5324,6 +5349,16 @@ h6 {
 ul.program li {
   list-style: '⏰';
   padding-left: 10px;
+}
+
+iframe {
+  height: 650px;
+}
+
+@media (max-width: 767px) {
+  iframe {
+    height: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
