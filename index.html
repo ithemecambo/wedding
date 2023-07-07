@@ -64,7 +64,13 @@
             </div>
             <div class="row">
                 <div class="col-xl-12">
-                    <div id="clock" class="countdown_area counter_bg ">
+                    <!-- <div id="clock" class="countdown_area counter_bg ">
+                    </div> -->
+                    <div class="countdown_wrap d-flex">
+                        <div  class="single_countdown">
+                            <h3>យើងខ្ញុំបានរៀបចំអាពាហ៍ពិពាហ៍រួចរាល់</h3>
+                            <span>នៅថ្ងៃទី៣០ ខែមិថុនា ឆ្នាំ២០២៣</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -321,13 +327,29 @@
     <script src="js/main.js"></script>
 
     <script>
-        $('#clock').countdown('2023/06/30', function (event) {
-            $(this).html(event.strftime(
-                '<div class="countdown_wrap d-flex"><div  class="single_countdown"><h3>%D</h3><span>ថ្ងៃ</span></div><div class="single_countdown"><h3>%H</h3><span>ម៉ោង</span></div><div class="single_countdown"><h3>%M</h3><span>នាទី</span></div><div class="single_countdown"><h3>%S</h3><span>វិនាទី</span></div></div>'
-            ));
-        });
-    </script>
-    <script>
+        // $('#clock').countdown('2023/06/30', function (event) {
+        //     var offset = event['offset'];
+        //     var value = offset['seconds'];
+        //     if (value <= 0) {
+        //         //$(this).appendChild('<div><h1>យើងខ្ញុំបានរៀបចំមង្គុលការរួចរាល់នៅថ្ងៃទី៣០ ខែមិថុនា ឆ្នាំ២០២៣</h1></div>');
+        //         var element = document.createElement("div");
+        //         element.appendChild(document.createTextNode('យើងខ្ញុំបានរៀបចំមង្គុលការរួចរាល់នៅថ្ងៃទី៣០ ខែមិថុនា ឆ្នាំ២០២៣'));
+        //         $('#clock').append('យើងខ្ញុំបានរៀបចំមង្គុលការរួចរាល់នៅថ្ងៃទី៣០ ខែមិថុនា ឆ្នាំ២០២៣');
+        //         console.log(value);
+        //     } else {
+        //         alert('Else');
+        //     }
+            
+        //     // if ($(this).value) <= 0 {
+        //     //     
+        //     // } else {
+        //     //     $(this).html(event.strftime(
+        //     //     '<div class="countdown_wrap d-flex"><div  class="single_countdown"><h3>%D</h3><span>ថ្ងៃ</span></div><div class="single_countdown"><h3>%H</h3><span>ម៉ោង</span></div><div class="single_countdown"><h3>%M</h3><span>នាទី</span></div><div class="single_countdown"><h3>%S</h3><span>វិនាទី</span></div></div>'
+        //     //     ));
+        //     // }
+            
+        // });
+
         function initMap() {
             var uluru = {
                 lat: 11.5657905,
